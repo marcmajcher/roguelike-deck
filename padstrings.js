@@ -14,6 +14,7 @@ lineReader.on('line', function(line) {
 });
 
 function padline(str, len) {
+  str = str.replace(/ /g, '.');
   while (str.length < len) {
     str = `.${str}.`;
   }
