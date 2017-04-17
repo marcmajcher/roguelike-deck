@@ -1,79 +1,79 @@
-id,name,Value,Suit
-1,Magician,1,Trump
-2,High Priestess,2,Trump
-3,Empress,3,Trump
-4,Emperor,4,Trump
-5,Hierophant,5,Trump
-6,Lovers,6,Trump
-7,Chariot,7,Trump
-8,Strength,8,Trump
-9,Hermit,9,Trump
-10,Wheel of Fortune,10,Trump
-11,Justice,11,Trump
-12,Hanged Man,12,Trump
-13,Death,13,Trump
-14,Temperance,14,Trump
-15,Devil,15,Trump
-16,Tower,16,Trump
-17,Star,17,Trump
-18,Moon,18,Trump
-19,Sun,19,Trump
-20,Judgement,20,Trump
-21,World,21,Trump
-22,Fool,0,Trump
-23,Ace of Thieves,1,Thieves
-24,Two of Thieves,2,Thieves
-25,Three of Thieves,3,Thieves
-26,Four of Theives,4,Thieves
-27,Five of Thieves,5,Thieves
-28,Six of Thieves,6,Thieves
-29,Seven of Thieves,7,Thieves
-30,Eight of Thieves,8,Thieves
-31,Nine of Thieves,9,Thieves
-32,Ten of Thieves,10,Thieves
-33,Page of Thieves,11,Thieves
-34,Knight of Thieves,12,Thieves
-35,Queen of Thieves,13,Thieves
-36,King of Thieves,14,Thieves
-37,Ace of Fighters,1,Fighters
-38,Two of Fighters,2,Fighters
-39,Three of Fighters,3,Fighters
-40,Four of Theives,4,Fighters
-41,Five of Fighters,5,Fighters
-42,Six of Fighters,6,Fighters
-43,Seven of Fighters,7,Fighters
-44,Eight of Fighters,8,Fighters
-45,Nine of Fighters,9,Fighters
-46,Ten of Fighters,10,Fighters
-47,Page of Fighters,11,Fighters
-48,Knight of Fighters,12,Fighters
-49,Queen of Fighters,13,Fighters
-50,King of Fighters,14,Fighters
-51,Ace of Priests,1,Priests
-52,Two of Priests,2,Priests
-53,Three of Priests,3,Priests
-54,Four of Theives,4,Priests
-55,Five of Priests,5,Priests
-56,Six of Priests,6,Priests
-57,Seven of Priests,7,Priests
-58,Eight of Priests,8,Priests
-59,Nine of Priests,9,Priests
-60,Ten of Priests,10,Priests
-61,Page of Priests,11,Priests
-62,Knight of Priests,12,Priests
-63,Queen of Priests,13,Priests
-64,King of Priests,14,Priests
-65,Ace of Wizards,1,Wizards
-66,Two of Wizards,2,Wizards
-67,Three of Wizards,3,Wizards
-68,Four of Theives,4,Wizards
-69,Five of Wizards,5,Wizards
-70,Six of Wizards,6,Wizards
-71,Seven of Wizards,7,Wizards
-72,Eight of Wizards,8,Wizards
-73,Nine of Wizards,9,Wizards
-74,Ten of Wizards,10,Wizards
-75,Page of Wizards,11,Wizards
-76,Knight of Wizards,12,Wizards
-77,Queen of Wizards,13,Wizards
-78,King of Wizards,14,Wizards
+id,value,name,L1,L2,L3,L4
+1,I,Magician,a,z,v,m
+2,II,High Priestess,s,P,I,A
+3,III,Empress,I,J,M,l
+4,IV,Emperor,k,s,L,X
+5,V,Hierophant,C,P,U,E
+6,VI,Lovers,Q,b,d,c
+7,VII,Chariot,a,n,w,e
+8,VIII,Strength,v,u,Z,w
+9,IX,Hermit,K,E,i,u
+10,X,Wheel of Fortune,C,R,T,b
+11,XI,Justice,d,u,W,J
+12,XII,Hanged Man,r,B,L,f
+13,XIII,Death,Y,H,D,Q
+14,XIV,Temperance,D,f,X,l
+15,XV,Devil,V,F,j,e
+16,XVI,Tower,w,t,v,M
+17,XVII,Star,r,Y,G,z
+18,XVIII,Moon,n,c,p,h
+19,XIX,Sun,p,V,X,O
+20,XX,Judgement,a,e,T,N
+21,XXI,World,r,d,g,O
+22,0,Fool,A,N,y,J
+23,Ace of Thieves,Value,W,B,o,l
+24,Two of Thieves,Value,T,W,D,g
+25,Three of Thieves,Value,U,m,x,I
+26,Four of Thieves,Value,C,q,f,p
+27,Five of Thieves,Value,F,i,O,x
+28,Six of Thieves,Value,Z,h,j,y
+29,Seven of Thieves,Value,c,t,j,S
+30,Eight of Thieves,Value,S,h,o,F
+31,Nine of Thieves,Value,H,q,b,z
+32,Ten of Thieves,Value,G,n,K,U
+33,Page of Thieves,Value,x,g,t,M
+34,Knight of Thieves,Value,Q,K,A,R
+35,Queen of Thieves,Value,m,s,G,V
+36,King of Thieves,Value,H,q,o,L
+37,Ace of Fighters,Value,i,P,E,B
+38,Two of Fighters,Value,Y,R,k,Z
+39,Three of Fighters,Value,N,y,k,S
+40,Four of Fighters,Value,A,m,x,o
+41,Five of Fighters,Value,h,y,d,s
+42,Six of Fighters,Value,M,x,i,H
+43,Seven of Fighters,Value,V,M,g,q
+44,Eight of Fighters,Value,I,o,b,s
+45,Nine of Fighters,Value,n,H,V,L
+46,Ten of Fighters,Value,p,g,A,v
+47,Page of Fighters,Value,v,N,p,w
+48,Knight of Fighters,Value,H,c,J,Y
+49,Queen of Fighters,Value,Z,u,W,P
+50,King of Fighters,Value,h,B,x,a
+51,Ace of Priests,Value,c,L,P,W
+52,Two of Priests,Value,U,E,p,Y
+53,Three of Priests,Value,j,F,D,e
+54,Four of Priests,Value,I,Z,K,U
+55,Five of Priests,Value,K,X,Y,z
+56,Six of Priests,Value,w,l,q,R
+57,Seven of Priests,Value,j,b,X,y
+58,Eight of Priests,Value,L,j,f,V
+59,Nine of Priests,Value,R,F,t,C
+60,Ten of Priests,Value,k,T,S,d
+61,Page of Priests,Value,F,v,D,S
+62,Knight of Priests,Value,f,J,t,i
+63,Queen of Priests,Value,n,w,O,T
+64,King of Priests,Value,o,e,l,a
+65,Ace of Wizards,Value,G,O,r,Q
+66,Two of Wizards,Value,e,l,N,i
+67,Three of Wizards,Value,y,d,M,C
+68,Four of Wizards,Value,q,n,u,T
+69,Five of Wizards,Value,D,N,C,U
+70,Six of Wizards,Value,E,B,J,A
+71,Seven of Wizards,Value,g,m,z,K
+72,Eight of Wizards,Value,G,t,k,B
+73,Nine of Wizards,Value,S,m,Q,r
+74,Ten of Wizards,Value,u,b,P,s
+75,Page of Wizards,Value,r,Q,k,E
+76,Knight of Wizards,Value,G,f,I,z
+77,Queen of Wizards,Value,c,Z,W,X
+78,King of Wizards,Value,h,R,a,O

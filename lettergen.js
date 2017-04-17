@@ -14,7 +14,7 @@ while (larr.length > 0) {
   for (let i = 0; i < 4; i++) {
     let index = Math.floor(Math.random() * larr.length);
     letters.push(index);
-    lobj[larr[index]] = 1;
+    lobj[larr[index].toUpperCase()] = 1;
   }
 
   if (Object.keys(lobj).length === 4) {
@@ -22,6 +22,6 @@ while (larr.length > 0) {
     letters.sort((a, b) => b - a).forEach(e => {
       larr.splice(e, 1);
     });
-    console.log(lout.join(' '));
+    console.log(lout.join(','));
   }
 }
