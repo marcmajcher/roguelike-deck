@@ -1,27 +1,27 @@
 id,value,name,danger,place,L1,L2,L3,L4
-1,I--The Archmage,* Mastery *,Danger,Place,k,J,D,C
-2,II--The High Priestess,* Wisdom *,Danger,Place,J,R,I,A
-3,III--The Empress,* Vitality *,Danger,Place,I,s,M,l
-4,IV--The Emperor,* Vigor *,Danger,Place,a,s,L,X
-5,V--The High Priest,* Faith *,Danger,Place,C,P,U,E
-6,VI--The Lovers,* Union *,Danger,Place,Q,b,d,c
-7,VII--The Chariot,* Conquest *,Danger,Place,a,n,w,e
-8,VIII--Strength,* Control *,Danger,Place,v,u,Z,w
-9,IX--The Hermit,* Contemplation *,Danger,Place,K,E,i,u
-10,X--The Wheel,* Fortune *,Danger,Place,m,P,T,b
-11,XI--Justice,* Balance *,Danger,Place,d,u,W,J
-12,XII--The Hanged Man,* Sacrifice *,Danger,Place,r,B,L,f
-13,XIII--Death,* Transformation *,Danger,Place,Y,H,D,Q
-14,XIV--Temperance,* Virtue *,Danger,Place,v,f,X,l
-15,XV--The Devil,* Temptation *,Danger,Place,V,F,j,e
-16,XVI--The Tower,* Disaster *,Danger,Place,w,t,v,M
-17,XVII--The Star,* Hope *,Danger,Place,r,Y,G,z
-18,XVIII--The Moon,* Secrecy *,Danger,Place,n,c,p,h
-19,XIX--The Sun,* Revelation *,Danger,Place,p,V,X,O
-20,XX--Judgement,* Rebirth *,Danger,Place,a,e,T,N
-21,XXI--The World,* Completion *,Danger,Place,r,d,g,O
-22,0--The Fools,* Initiative *,Danger,Place,m,M,R,H
-23,Ace of Thieves,$ Earth--Activity $,Danger,Place,W,B,o,l
+1,I--The Archmage,* Mastery *,Apparition,Library,k,J,D,C
+2,II--The High Priestess,* Wisdom *,Witch,Hovel,J,R,I,A
+3,III--The Empress,* Vitality *,Amazon,Palace,I,s,M,l
+4,IV--The Emperor,* Vigor *,Colossus,Forge,a,s,L,X
+5,V--The High Priest,* Faith *,Sorcerer,Tomb,C,P,U,E
+6,VI--The Lovers,* Union *,Medusa,Church,Q,b,d,c
+7,VII--The Chariot,* Conquest *,Mammoth,Arena,a,n,w,e
+8,VIII--Strength,* Control *,Chimera,Menagerie,v,u,Z,w
+9,IX--The Hermit,* Contemplation *,Vampire,Cavern,K,E,i,u
+10,X--The Wheel,* Fortune *,Gremlin,Carnival,m,P,T,b
+11,XI--Justice,* Balance *,Cyclops,Stable,d,u,W,J
+12,XII--The Hanged Man,* Sacrifice *,Lich,Temple,r,B,L,f
+13,XIII--Death,* Transformation *,Assassin,Bedchamber,Y,H,D,Q
+14,XIV--Temperance,* Virtue *,Angel,Hatchery,v,f,X,l
+15,XV--The Devil,* Temptation *,Dragon,Jeweler,V,F,j,e
+16,XVI--The Tower,* Disaster *,Giant,Nursery,w,t,v,M
+17,XVII--The Star,* Hope *,Golem,Workshop,r,Y,G,z
+18,XVIII--The Moon,* Secrecy *,Kraken,Island,n,c,p,h
+19,XIX--The Sun,* Revelation *,Demon,Auditorium,p,V,X,O
+20,XX--Judgement,* Rebirth *,Minotaur,Barracks,a,e,T,N
+21,XXI--The World,* Completion *,Titan,Hilltop,r,d,g,O
+22,0--The Fools,* Initiative *,Ettin,Theater,m,M,R,H
+23,Ace of Thieves,$ Earth--Activity $,Famine,Place,W,B,o,l
 24,Two of Thieves,$ Change $,Danger,Place,T,W,D,g
 25,Three of Thieves,$ Labor $,Danger,Place,U,N,x,I
 26,Four of Thieves,$ Power $,Danger,Place,C,q,f,p
@@ -35,7 +35,7 @@ id,value,name,danger,place,L1,L2,L3,L4
 34,Knight of Thieves,$ Caution $,Danger,Place,Q,K,A,y
 35,Queen of Thieves,$ Intuition $,Danger,Place,m,s,G,V
 36,King of Thieves,$ Practicality $,Danger,Place,H,q,o,L
-37,Ace of Warriors,) Fire--Motivation ),Danger,Place,i,P,E,B
+37,Ace of Warriors,) Fire--Motivation ),Slaughter,Place,i,P,E,B
 38,Two of Warriors,) Peace ),Danger,Place,Y,R,k,Z
 39,Three of Warriors,) Sorrow ),Danger,Place,N,y,k,S
 40,Four of Warriors,) Truce ),Danger,Place,A,m,x,o
@@ -49,7 +49,7 @@ id,value,name,danger,place,L1,L2,L3,L4
 48,Knight of Warriors,) Strategy ),Danger,Place,H,c,J,Y
 49,Queen of Warriors,) Decisiveness ),Danger,Place,Z,u,W,P
 50,King of Warriors,) Passion ),Danger,Place,h,B,x,a
-51,Ace of Priests,! Water--Renewal !,Danger,Place,c,L,P,W
+51,Ace of Priests,! Water--Renewal !,Death,Place,c,L,P,W
 52,Two of Priests,! Love !,Danger,Place,U,E,p,Y
 53,Three of Priests,! Abundance !,Danger,Place,j,F,D,e
 54,Four of Priests,! Apathy !,Danger,Place,I,Z,K,U
@@ -63,7 +63,7 @@ id,value,name,danger,place,L1,L2,L3,L4
 62,Knight of Priests,! Subtlety !,Danger,Place,f,J,t,i
 63,Queen of Priests,! Detachment !,Danger,Place,n,w,O,T
 64,King of Priests,! Gratitude !,Danger,Place,o,e,l,a
-65,Ace of Wizards,/ Air--Clarity /,Danger,Place,G,O,r,Q
+65,Ace of Wizards,/ Air--Clarity /,Pestilence,Place,G,O,r,Q
 66,Two of Wizards,/ Command /,Danger,Place,e,l,N,i
 67,Three of Wizards,/ Achievement /,Danger,Place,y,d,M,C
 68,Four of Wizards,/ Harmony /,Danger,Place,q,n,u,T
