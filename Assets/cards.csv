@@ -1,79 +1,79 @@
 id,value,name,danger,place,L1,L2,L3,L4
-1,I--The Archmage,* Mastery *,Apparition,Library,k,J,D,C
-2,II--The High Priestess,* Wisdom *,Witch,Hovel,J,R,I,A
-3,III--The Empress,* Vitality *,Amazon,Palace,I,s,M,l
-4,IV--The Emperor,* Vigor *,Colossus,Forge,a,s,L,X
-5,V--The High Priest,* Faith *,Sorcerer,Tomb,C,P,U,E
-6,VI--The Lovers,* Union *,Medusa,Jungle,Q,b,d,c
-7,VII--The Chariot,* Conquest *,Mammoth,Arena,a,n,w,e
-8,VIII--Strength,* Control *,Chimera,Menagerie,v,u,Z,w
-9,IX--The Hermit,* Contemplation *,Minotaur,Cavern,K,E,i,u
-10,X--The Wheel,* Fortune *,Gremlin,Carnival,m,P,T,b
-11,XI--Justice,* Balance *,Cyclops,Stable,d,u,W,J
-12,XII--The Hanged Man,* Sacrifice *,Phoenix,Desert,r,B,L,f
-13,XIII--Death,* Transformation *,Hydra,Mountain,Y,H,D,Q
-14,XIV--Temperance,* Virtue *,Angel,Hatchery,v,f,X,l
-15,XV--The Devil,* Temptation *,Dragon,Jeweler,V,F,j,e
-16,XVI--The Tower,* Disaster *,Wyrm,Nursery,w,t,v,M
-17,XVII--The Star,* Hope *,Golem,Workshop,r,Y,G,z
-18,XVIII--The Moon,* Secrecy *,Kraken,Island,n,c,p,h
-19,XIX--The Sun,* Revelation *,Demon,Auditorium,p,V,X,O
-20,XX--Judgement,* Rebirth *,Necromancer,Barracks,a,e,T,N
-21,XXI--The World,* Completion *,Titan,Hilltop,r,d,g,O
-22,0--The Fools,* Initiative *,Ettin,Theater,m,M,R,H
-23,Ace of Thieves,$ Earth--Activity $,Famine,Guild,W,B,o,l
-24,Two of Thieves,$ Change $,Bandit,Sewer,T,W,D,g
-25,Three of Thieves,$ Labor $,Gladiator,Wharf,U,N,x,I
-26,Four of Thieves,$ Power $,Berzerker,Mill,C,q,f,p
-27,Five of Thieves,$ Worry $,Nomad,Blacksmith,F,i,O,x
-28,Six of Thieves,$ Profit $,Shaman,Market,Z,h,j,y
-29,Seven of Thieves,$ Failure $,Cultist,Tavern,c,t,j,S
-30,Eight of Thieves,$ Artistry $,Pirate,Kitchen,S,h,o,F
-31,Nine of Thieves,$ Gain $,Duelist,Citadel,J,q,b,z
-32,Ten of Thieves,$ Wealth $,Warlord,Armory,G,n,K,U
-33,Page of Thieves,$ Frugality $,Werewolf,Treasury,x,g,a,t
-34,Knight of Thieves,$ Caution $,Soldier,Inn,Q,K,A,y
-35,Queen of Thieves,$ Intuition $,Sorceress,Alley,m,s,G,V
-36,King of Thieves,$ Practicality $,Assassin,Great Hall,H,q,o,L
-37,Ace of Warriors,) Fire--Motivation ),Slaughter,Battlefield,i,P,E,B
-38,Two of Warriors,) Peace ),Kobold,Plains,Y,R,k,Z
-39,Three of Warriors,) Sorrow ),Goblin,Cemetery,N,y,k,S
-40,Four of Warriors,) Truce ),Yeti,Swamp,A,m,x,o
-41,Five of Warriors,) Defeat ),Orc,Trail,h,y,d,s
-42,Six of Warriors,) Resolve ),Troll,Burrows,M,x,i,H
-43,Seven of Warriors,) Futility ),Lizardman,Cliff,V,M,g,q
-44,Eight of Warriors,) Interference ),Owlbear,Encampment,I,o,b,s
-45,Nine of Warriors,) Hardship ),Gnoll,Oasis,n,H,V,L
-46,Ten of Warriors,) Ruin ),Troglodyte,Glacier,p,g,A,v
-47,Page of Warriors,) Cruelty ),Ogre,Swamp,v,N,p,w
-48,Knight of Warriors,) Strategy ),Centaur,Pass,H,c,J,Y
-49,Queen of Warriors,) Decisiveness ),Naga,Caravan,Z,u,W,P
-50,King of Warriors,) Passion ),Giant,Place,h,B,x,a
-51,Ace of Priests,! Water--Renewal !,Reaper,Temple,c,L,P,W
-52,Two of Priests,! Love !,Skeleton,Portal,U,E,p,Y
-53,Three of Priests,! Abundance !,Mummy,Laboratory,j,F,D,e
-54,Four of Priests,! Apathy !,Zombie,Observatory,I,Z,K,U
-55,Five of Priests,! Disappointment !,Ghoul,Well,K,X,Y,z
-56,Six of Priests,! Innocence !,Wraith,Courtroom,w,l,q,R
-57,Seven of Priests,! Delusion !,Ghost,Place,j,b,X,y
-58,Eight of Priests,! Abandon !,Banshee,Place,L,j,f,V
-59,Nine of Priests,! Luxury !,Wight,Place,R,F,t,C
-60,Ten of Priests,! Contentment !,Draugr,Mine,k,T,S,d
-61,Page of Priests,! Companionship !,Revenant,Place,F,v,D,S
-62,Knight of Priests,! Subtlety !,Vampire,Place,f,J,t,i
-63,Queen of Priests,! Detachment !,Succubus,Place,n,w,O,T
-64,King of Priests,! Gratitude !,Lich,Place,o,e,l,a
-65,Ace of Wizards,/ Air--Clarity /,Pestilence,Tower,G,O,r,Q
-66,Two of Wizards,/ Command /,Bat,Place,e,l,N,i
-67,Three of Wizards,/ Achievement /,Fairy,Place,y,d,M,C
-68,Four of Wizards,/ Harmony /,Eagle,Place,q,n,u,T
-69,Five of Wizards,/ Struggle /,Manticore,Place,D,N,C,U
-70,Six of Wizards,/ Victory /,Wyvern,Place,E,B,J,A
-71,Seven of Wizards,/ Courage /,Griffin,Place,g,m,z,K
-72,Eight of Wizards,/ Swiftness /,Roc,Place,G,t,k,B
-73,Nine of Wizards,/ Discipline /,Gargoyle,Place,S,m,Q,r
-74,Ten of Wizards,/ Oppression /,Cockatrice,Place,u,b,P,s
-75,Page of Wizards,/ Ambition /,Harpy,Place,r,Q,k,E
-76,Knight of Wizards,/ Action /,Sphinx,Place,G,f,I,z
-77,Queen of Wizards,/ Authority /,Pegasus,Place,c,Z,W,X
-78,King of Wizards,/ Impatience /,Djinn,Place,h,R,a,O
+the-magician,I--The Archmage,* Mastery *,Apparition,Library,k,J,D,C
+the-high-priestess,II--The High Priestess,* Wisdom *,Witch,Hovel,J,R,I,A
+the-empress,III--The Empress,* Vitality *,Amazon,Palace,I,s,M,l
+the-emperor,IV--The Emperor,* Vigor *,Colossus,Forge,a,s,L,X
+the-hierophant,V--The High Priest,* Faith *,Sorcerer,Tomb,C,P,U,E
+the-lovers,VI--The Lovers,* Union *,Medusa,Jungle,Q,b,d,c
+the-chariot,VII--The Chariot,* Conquest *,Mammoth,Arena,a,n,w,e
+strength,VIII--Strength,* Control *,Chimera,Menagerie,v,u,Z,w
+the-hermit,IX--The Hermit,* Contemplation *,Minotaur,Cavern,K,E,i,u
+wheel-of-fortune,X--The Wheel,* Fortune *,Gremlin,Carnival,m,P,T,b
+justice,XI--Justice,* Balance *,Cyclops,Stable,d,u,W,J
+the-hanged-man,XII--The Hanged Man,* Sacrifice *,Phoenix,Desert,r,B,L,f
+death,XIII--Death,* Transformation *,Hydra,Mountain,Y,H,D,Q
+temperance,XIV--Temperance,* Virtue *,Angel,Hatchery,v,f,X,l
+the-devil,XV--The Devil,* Temptation *,Dragon,Jeweler,V,F,j,e
+the-tower,XVI--The Tower,* Disaster *,Wyrm,Nursery,w,t,v,M
+the-star,XVII--The Star,* Hope *,Golem,Workshop,r,Y,G,z
+the-moon,XVIII--The Moon,* Secrecy *,Kraken,Island,n,c,p,h
+the-sun,XIX--The Sun,* Revelation *,Demon,Auditorium,p,V,X,O
+judgement,XX--Judgement,* Rebirth *,Necromancer,Barracks,a,e,T,N
+the-world,XXI--The World,* Completion *,Titan,Hilltop,r,d,g,O
+the-fool,0--The Fools,* Initiative *,Ettin,Theater,m,M,R,H
+ace-of-pentacles,Ace of Thieves,$ Earth--Activity $,Famine,Guild,W,B,o,l
+two-of-pentacles,Two of Thieves,$ Change $,Bandit,Sewer,T,W,D,g
+three-of-pentacles,Three of Thieves,$ Labor $,Gladiator,Wharf,U,N,x,I
+four-of-pentacles,Four of Thieves,$ Power $,Berzerker,Mill,C,q,f,p
+five-of-pentacles,Five of Thieves,$ Worry $,Nomad,Blacksmith,F,i,O,x
+six-of-pentacles,Six of Thieves,$ Profit $,Shaman,Market,Z,h,j,y
+seven-of-pentacles,Seven of Thieves,$ Failure $,Cultist,Tavern,c,t,j,S
+eight-of-pentacles,Eight of Thieves,$ Artistry $,Pirate,Kitchen,S,h,o,F
+nine-of-pentacles,Nine of Thieves,$ Gain $,Duelist,Citadel,J,q,b,z
+ten-of-pentacles,Ten of Thieves,$ Wealth $,Warlord,Armory,G,n,K,U
+page-of-pentacles,Squire of Thieves,$ Frugality $,Werewolf,Treasury,x,g,a,t
+knight-of-pentacles,Knight of Thieves,$ Caution $,Soldier,Inn,Q,K,A,y
+queen-of-pentacles,Queen of Thieves,$ Intuition $,Sorceress,Alley,m,s,G,V
+king-of-pentacles,King of Thieves,$ Practicality $,Assassin,Great Hall,H,q,o,L
+ace-of-swords,Ace of Warriors,) Fire--Motivation ),Slaughter,Battlefield,i,P,E,B
+two-of-swords,Two of Warriors,) Peace ),Kobold,Plains,Y,R,k,Z
+three-of-swords,Three of Warriors,) Sorrow ),Goblin,Cemetery,N,y,k,S
+four-of-swords,Four of Warriors,) Truce ),Yeti,Swamp,A,m,x,o
+five-of-swords,Five of Warriors,) Defeat ),Orc,Trail,h,y,d,s
+six-of-swords,Six of Warriors,) Resolve ),Troll,Burrows,M,x,i,H
+seven-of-swords,Seven of Warriors,) Futility ),Lizardman,Cliff,V,M,g,q
+eight-of-swords,Eight of Warriors,) Interference ),Owlbear,Encampment,I,o,b,s
+nine-of-swords,Nine of Warriors,) Hardship ),Gnoll,Oasis,n,H,V,L
+ten-of-swords,Ten of Warriors,) Ruin ),Troglodyte,Glacier,p,g,A,v
+page-of-swords,Squire of Warriors,) Cruelty ),Ogre,Swamp,v,N,p,w
+knight-of-swords,Knight of Warriors,) Strategy ),Centaur,Pass,H,c,J,Y
+queen-of-swords,Queen of Warriors,) Decisiveness ),Naga,Caravan,Z,u,W,P
+king-of-swords,King of Warriors,) Passion ),Giant,Place,h,B,x,a
+ace-of-cups,Ace of Priests,! Water--Renewal !,Reaper,Temple,c,L,P,W
+two-of-cups,Two of Priests,! Love !,Skeleton,Portal,U,E,p,Y
+three-of-cups,Three of Priests,! Abundance !,Mummy,Laboratory,j,F,D,e
+four-of-cups,Four of Priests,! Apathy !,Zombie,Observatory,I,Z,K,U
+five-of-cups,Five of Priests,! Disappointment !,Ghoul,Well,K,X,Y,z
+six-of-cups,Six of Priests,! Innocence !,Wraith,Courtroom,w,l,q,R
+seven-of-cups,Seven of Priests,! Delusion !,Ghost,Place,j,b,X,y
+eight-of-cups,Eight of Priests,! Abandon !,Banshee,Place,L,j,f,V
+nine-of-cups,Nine of Priests,! Luxury !,Wight,Place,R,F,t,C
+ten-of-cups,Ten of Priests,! Contentment !,Draugr,Mine,k,T,S,d
+page-of-cups,Squire of Priests,! Companionship !,Revenant,Place,F,v,D,S
+knight-of-cups,Knight of Priests,! Subtlety !,Vampire,Place,f,J,t,i
+queen-of-cups,Queen of Priests,! Detachment !,Succubus,Place,n,w,O,T
+king-of-cups,King of Priests,! Gratitude !,Lich,Place,o,e,l,a
+ace-of-wands,Ace of Wizards,/ Air--Clarity /,Pestilence,Tower,G,O,r,Q
+two-of-wands,Two of Wizards,/ Command /,Bat,Place,e,l,N,i
+three-of-wands,Three of Wizards,/ Achievement /,Fairy,Place,y,d,M,C
+four-of-wands,Four of Wizards,/ Harmony /,Eagle,Place,q,n,u,T
+five-of-wands,Five of Wizards,/ Struggle /,Manticore,Place,D,N,C,U
+six-of-wands,Six of Wizards,/ Victory /,Wyvern,Place,E,B,J,A
+seven-of-wands,Seven of Wizards,/ Courage /,Griffin,Place,g,m,z,K
+eight-of-wands,Eight of Wizards,/ Swiftness /,Roc,Place,G,t,k,B
+nine-of-wands,Nine of Wizards,/ Discipline /,Gargoyle,Place,S,m,Q,r
+ten-of-wands,Ten of Wizards,/ Oppression /,Cockatrice,Place,u,b,P,s
+page-of-wands,Squire of Wizards,/ Ambition /,Harpy,Place,r,Q,k,E
+knight-of-wands,Knight of Wizards,/ Action /,Sphinx,Place,G,f,I,z
+queen-of-wands,Queen of Wizards,/ Authority /,Pegasus,Place,c,Z,W,X
+king-of-wands,King of Wizards,/ Impatience /,Djinn,Place,h,R,a,O
