@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "ascii-art": "^1.4.2",
-    "asciify-image": "^0.0.8"
+    "ascii-art": "^1.4.2"
   }
 }

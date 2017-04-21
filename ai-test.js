@@ -20,18 +20,3 @@ styles.forEach(style => {
   });
 
 });
-
-
-const asciify = require('asciify-image');
-
-const options = {
-  fit: 'box',
-  width: 17,
-  height: 23,
-  color: false,
-  c_ratio: 2
-};
-
-asciify('./01_Magician_bw.png', options, function(asciified) {
-  console.log(asciified);
-});
