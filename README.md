@@ -1,3 +1,3 @@
 # roguelike-deck
 
-![Roguelike](Assets/roguelike-deck.jpg)
+![Roguelike](roguelike-deck/Assets/roguelike-splash.jpg)
