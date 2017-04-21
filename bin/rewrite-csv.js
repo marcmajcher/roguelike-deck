@@ -18,14 +18,14 @@ cards.forEach((line) => {
     for (let i = 0; i < lineHeight; i++) {
       headerString += `,P${i+1}`;
     }
-    for (let i = 0; i < lineHeight; i++) {
+    for (let i = 0; i < lineHeight + 2; i++) {
       headerString += `,I${i+1}`;
     }
     console.log(headerString);
     header = false;
   }
   else {
-    let bits = line.split(',');
+    let bits = line.trim().split(',');
     bits[1] = padline(bits[1], lineLength);
     bits[2] = padline(bits[2], lineLength);
 
@@ -36,7 +36,7 @@ cards.forEach((line) => {
 
     const image = fs.readFileSync(`rw-ascii/${bits[0]}.txt`, 'utf-8').split('\n').filter(Boolean);
     image.forEach((line) => {
-      bits.push(line);
+      bits.push(line.replace(/ /g, '.'));
     });
 
     console.log(bits.join(','));
