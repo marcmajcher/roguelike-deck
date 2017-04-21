@@ -1,14 +1,14 @@
 'use strict';
 
-const lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream('cards.csv')
-});
+const fs = require('fs');
 
 let header = true;
 const lineLength = 23;
 const lineHeight = 15;
 
-lineReader.on('line', function(line) {
+const cards = fs.readFileSync('Assets/cards.csv', 'utf-8').split('\n').filter(Boolean);
+
+cards.forEach((line) => {
   if (header) {
     let headerString = 'id,value,name,danger,place,L1,L2,L3,L4';
 
@@ -17,6 +17,9 @@ lineReader.on('line', function(line) {
     }
     for (let i = 0; i < lineHeight; i++) {
       headerString += `,P${i+1}`;
+    }
+    for (let i = 0; i < lineHeight; i++) {
+      headerString += `,I${i+1}`;
     }
     console.log(headerString);
     header = false;
@@ -30,6 +33,11 @@ lineReader.on('line', function(line) {
     let place = padline(bits[4], lineHeight).split('');
     bits = bits.concat(danger);
     bits = bits.concat(place);
+
+    const image = fs.readFileSync(`rw-ascii/${bits[0]}.txt`, 'utf-8').split('\n').filter(Boolean);
+    image.forEach((line) => {
+      bits.push(line);
+    });
 
     console.log(bits.join(','));
   }
