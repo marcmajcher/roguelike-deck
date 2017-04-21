@@ -26,8 +26,8 @@ fs.readdir(imgDir, (err, files) => {
       var image = new art.Image({
         filepath: `${imgDir}/${file}`,
         alphabet: style,
-        width: 17,
-        height: 23
+        width: 23,
+        height: 34
       });
 
       image.write(function(err, rendered) {
