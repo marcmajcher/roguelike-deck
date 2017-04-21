@@ -4,7 +4,7 @@ const fs = require('fs');
 
 let header = true;
 const lineLength = 23;
-const lineHeight = 15;
+const lineHeight = 24;
 
 const cards = fs.readFileSync('Assets/cards.csv', 'utf-8').split('\n').filter(Boolean);
 
@@ -18,7 +18,7 @@ cards.forEach((line) => {
     for (let i = 0; i < lineHeight; i++) {
       headerString += `,P${i+1}`;
     }
-    for (let i = 0; i < lineHeight + 2; i++) {
+    for (let i = 0; i < lineHeight; i++) {
       headerString += `,I${i+1}`;
     }
     console.log(headerString);
@@ -36,7 +36,7 @@ cards.forEach((line) => {
 
     const image = fs.readFileSync(`rw-ascii/${bits[0]}.txt`, 'utf-8').split('\n').filter(Boolean);
     image.forEach((line) => {
-      bits.push(`"${line.replace(/ /g,'NBSP')}"`);
+      bits.push(`"${line.replace(/ /g,'ß')}"`);
     });
 
     console.log(bits.join(','));

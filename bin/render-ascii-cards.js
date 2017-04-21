@@ -30,7 +30,7 @@ fs.readdir(imgDir, (err, files) => {
         filepath: `${imgDir}/${file}`,
         alphabet: style,
         width: 23,
-        height: 34
+        height: 48
       });
 
       image.write(function(err, rendered) {
