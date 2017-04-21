@@ -31,7 +31,10 @@ fs.readdir(imgDir, (err, files) => {
       });
 
       image.write(function(err, rendered) {
-        outStream.write(rendered.replace(/\[\d+m/g, '')); // + `${separator}:${style}\n`);
+        rendered = rendered.replace(/\u001b/g, '');
+        rendered = rendered.replace(/\[30m./g, ' ');
+        rendered = rendered.replace(/\[\d+m/g, '');
+        outStream.write(rendered); // + `${separator}:${style}\n`);
       });
     });
   });
