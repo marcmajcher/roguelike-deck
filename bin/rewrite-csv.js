@@ -36,7 +36,7 @@ cards.forEach((line) => {
 
     const image = fs.readFileSync(`rw-ascii/${bits[0]}.txt`, 'utf-8').split('\n').filter(Boolean);
     image.forEach((line) => {
-      bits.push(line.replace(/ /g, '.'));
+      bits.push(`"${line.replace(/ /g,'NBSP')}"`);
     });
 
     console.log(bits.join(','));

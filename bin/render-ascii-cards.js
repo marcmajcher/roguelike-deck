@@ -3,17 +3,20 @@
 const art = require('ascii-art');
 const fs = require('fs');
 
+art.valueScales.nethack = '@#$]/!:*=+,. '.split('');
+
 const imgDir = 'rw-images-bw';
 const outDir = 'rw-ascii';
 // const separator = '=================';
 const styles = [
   // 'variant1',
-  'variant2',
+  // 'variant2',
   // 'variant3',
   // 'variant4',
   // 'ultra-wide',
   // 'wide',
   // 'hatching'
+  'nethack'
 ];
 
 fs.readdir(imgDir, (err, files) => {
