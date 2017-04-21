@@ -5,16 +5,22 @@ const fs = require('fs');
 
 const imgDir = 'rw-images-bw';
 const outDir = 'rw-ascii';
-const separator = '=================\n';
-const styles = ['variant1', 'variant2', 'variant3', 'variant4',
-  'ultra-wide', 'wide', 'hatching'
+// const separator = '=================';
+const styles = [
+  // 'variant1',
+  'variant2',
+  // 'variant3',
+  // 'variant4',
+  // 'ultra-wide',
+  // 'wide',
+  // 'hatching'
 ];
 
 fs.readdir(imgDir, (err, files) => {
   files.forEach(file => {
     const outFile = `${outDir}/${file}`.replace(/\.png$/, '.txt');
     const outStream = fs.createWriteStream(outFile);
-    outStream.write(separator);
+    // outStream.write(`${separator}\n`);
 
     styles.forEach(style => {
       var image = new art.Image({
@@ -25,7 +31,7 @@ fs.readdir(imgDir, (err, files) => {
       });
 
       image.write(function(err, rendered) {
-        outStream.write(rendered.replace(/\[\d+m/g, '') + separator);
+        outStream.write(rendered.replace(/\[\d+m/g, '')); // + `${separator}:${style}\n`);
       });
     });
   });
